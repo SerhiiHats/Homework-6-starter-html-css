@@ -1,0 +1,257 @@
+body {
+    font-family: Corbel;
+    color: #14931E;
+    background: #FFFFFF;
+    margin: auto;
+}
+
+.index-header {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.index-main {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.index-footer {
+    max-width: 1100px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    width: 50%;
+    margin: 35px auto;
+    font-size: 64px;
+}
+
+.title-description {
+    text-align: center;
+    color: #646F75;
+    font-size: 24px;
+    font-weight: bold;
+    width: 40%;
+    margin: 40px auto 60px auto;
+}
+
+.nav-starts {
+    width: 20%;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+.nav-starts > .starts {
+    background: #14931E;
+    color: white;
+    text-decoration: none;
+    padding: 10px 35px 12px 35px;
+    border-radius: 25px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 24px;
+}
+
+.nav-starts > .starts:hover {
+    background: #39b943;
+    box-shadow: 1px 1px 7px 3px lightgrey;
+    color: blue;
+}
+
+.nav-starts > .starts:active {
+    background: #14931E;
+    box-shadow: none;
+    padding: 7px 27px 9px 27px;
+    border: 2px solid blue;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+}
+
+.inner-menu {
+    width: 33%;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-menu > a {
+    width: 67%;
+    height: 30%;
+    padding: 30px 30px;
+    border-radius: 35px;
+    background: #DFDBF4;
+    text-decoration: none;
+    color: #646F75;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-menu > a:hover {
+    border-radius: 35px;
+    background: #eae5f6;
+    color: blue;
+    border: none;
+    box-shadow: 1px 1px 7px 3px lightgrey;
+}
+
+.inner-menu > a:active {
+    border-radius: 35px;
+    padding: 28px 28px;
+    background: #DFDBF4;
+    color: #3434f1;
+    border: blue 2px solid;
+    box-shadow: none;
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+footer {
+    height: 450px;
+}
+
+.body-second-page {
+    background: #DFDBF5;
+}
+
+.body-second-page > header {
+    background: #DFDBF5;
+}
+
+.price {
+    font-size: 48px;
+    color: #14931E;
+}
+
+.enum-services {
+    margin: 100px auto 150px auto;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.the-service {
+    width: 22%;
+    padding: 15px;
+    margin: auto;
+    border-radius: 35px;
+    font-size: 24px;
+    background: white;
+}
+
+.the-service:nth-child(even) {
+    background: #14931E;
+    color: white;
+}
+
+.the-service:nth-child(even) .inner-enum-service {
+    color: white;
+}
+
+.the-service:nth-child(even) span {
+    color: white;
+}
+
+.the-service:nth-child(even) a {
+    background: white;
+}
+
+.the-service:nth-child(even) a:hover {
+    background: grey;
+    color: black;
+}
+
+.the-service:nth-child(odd) a:hover {
+    background: #14931E;
+    color: white;
+}
+
+#a-one:active {
+    color: blue;
+    border: 2px blue solid;
+    padding: 3px 23px 3px 23px;
+}
+
+#a-two:active {
+    color: blue;
+    border: 2px blue solid;
+    padding: 3px 23px 3px 23px;
+}
+
+#a-three:active {
+    color: blue;
+    border: 2px blue solid;
+    padding: 3px 23px 3px 23px;
+}
+
+
+.the-service > h3 {
+    text-align: center;
+    height: 70px;
+}
+
+.inner-enum-service {
+    height: 181px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #646F75;
+    list-style: disc;
+}
+
+.inner-enum-service > li {
+    margin: 15px 0;
+}
+
+.line-price {
+    display: block;
+    margin: 25px 0 10px 0;
+    height: 44px;
+}
+
+.line-price > a {
+    text-decoration: none;
+    color: #646F75;
+    border: 1px solid #646F75;
+    border-radius: 25px;
+    float: right;
+    padding: 5px 25px 5px 25px;
+    margin: 0 10px 0 0;
+    height: 32px;
+}
+
+.line-price > span {
+    color: #646F75;
+    font-size: 30px;
+    float: left;
+    height: 32px;
+    width: auto;
+    padding: 1px 1px 11px 1px;
+    margin: 0 0 0 10px;
+}
+
+.footer-lawyer {
+    height: 100px;
+    background: #14931E;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
